@@ -3,7 +3,7 @@ A more convenient way to teleport a lot of players to one spot (Source Code)
 
 This is the source code from the plugin Optimized Teleportation
 Links:
-  -
+  - Being Currently Approved on Mc-Market
   -
   
 If you liked the plugin please do leave a good review :)
