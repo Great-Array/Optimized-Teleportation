@@ -1,0 +1,20 @@
+name: TPE
+version: ${project.version}
+main: me.great_array.optimized_teleportation.Teleport
+api-version: 1.16
+authors: [ Great_Array ]
+description: A simple plugin that allows you to teleport a large amount of players to one spot, and teleport them back to their previous location afterwards
+
+commands:
+
+  tper:
+    description: Returns all players that have recenrly been in a teleport all to their previous location
+    aliases:
+      - optar
+      - optimizedreturn
+
+  tpe:
+    description: Teleports every player online to your location in a non laggy/destrucive way
+    aliases:
+      - otpa
+      - optimizedteleport

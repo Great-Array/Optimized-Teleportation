@@ -1,0 +1,36 @@
+# Here you can change some basic settings to fit your version of TPE
+Settings:
+  # This is the period of time the plugin will wait before teleporting the next batch of people
+  # For example, if you leave it at 5 the plugin will teleport x amount of people every 5 seconds until everyone has been teleported
+  TeleportCooldown: 5
+
+  # This is the number of players the plugin will teleport every batch
+  # For example, if you leave it at 5 the plugin will teleport 5 people every x amount of seconds untill everyone has been teleported
+  PlayerAmount: 5
+
+# Here you can customize the messages for your version of TPE
+Messages:
+  # This message will be displayed when a player with insufficient permissions tries to use the plugin
+  NoPermission: "&8(&6&lTPE&r&8) &fSorry, but you do not have permission to use this"
+  # This message will be displayed when a player tries to do a teleport all while another teleport all is already in progress
+  TeleportInProgress: "&8(&6&lTPE&r&8) &A &eTeleport All &fis already in progress, please wait for it to finish"
+  # This message will be displayed when a player tries to do a return all while another return all is already in progress
+  ReturnInProgress: "&8(&6&lTPE&r&8) &a &eReturn All &fis already in progress, please wait for it to finish"
+  # This message will be displayed when a teleport all has finished
+  FinishedTeleport: "&8(&6&lTPE&r&8) &fThe &eTeleport All &fhas finished"
+  # This message will be displayed after a return all has finished
+  FinishedReturn: "&8(&6&lTPE&r&8) &fThe &eReturn All &fhas finished"
+  # This message will be displayed when a teleport all has been started
+  # The $user is a placeholder for the command executors name, so if a player named Steve started a teleport all the message would look something like "Teleport all has been started by Steve"
+  TeleportStarted: "&8(&6&lTPE&r&8) &fA &eTeleport All &fhas been started by&e $user"
+  # This message will be displayed when a return all has been started
+  # The $user is a placeholder for the command executors name
+  ReturnStarted: "&8(&6&lTPE&r&8) &fA &eReturn All &fhas been started by&e $user"
+  # This message will be displayed if a player tries to start a teleport all whilst they are the only person on the server
+  NobodyOnline: "&8(&6&lTPE&r&8) &fYou are the only person in the server, teleport all would be useless in this situation"
+  # This message will be displayed if a player tries to start a return all but there was no recent teleport all
+  # If there has not been a recent teleport all then there would be no locations to return the players to
+  NoReturn: "&8(&6&lTPE&r&8) &f Sorry, but the plugin can't find any player locations to return the players to"
+
+# Please do not touch this, this displays on what version of the plugin you are on
+Config: 2
